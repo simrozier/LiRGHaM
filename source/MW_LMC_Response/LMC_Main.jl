@@ -5,7 +5,7 @@
 #
 # ACTION REQUIRED: replace the path in "CodeDirectory" with the local path to the parent folder.
 #
-CodeDirectory = "/Users/rozier/Documents/PostDoc/sphericalresponse/Time_Response/Julia_code_published/LiRGHaM/source/" 
+CodeDirectory = "/LiRGHaM/source/" 
 # "./" 
 
 
