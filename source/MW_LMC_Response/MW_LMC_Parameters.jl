@@ -5,9 +5,9 @@
 # Defining which actions the code will do.
 #
 const version = "MW_LMC_notAcc" 	# Switch to know which version this is. Possibilities: "MW_LMC_notAcc" "MW_LMC_Acc"
-const projectionQ = "computed" 			# Whether the projection should be read or computed. "read", "computed" or false.
-const resonanceMatrixQ = "computed" 		# Whether the resonance matrix should be read or computed. "read", "computed" or false.
-const responseQ = "computed" 			# Whether the response should be computed. "computed" or false.
+const projectionQ = false 			# Whether the projection should be read or computed. "read", "computed" or false.
+const resonanceMatrixQ = false 		# Whether the resonance matrix should be read or computed. "read", "computed" or false.
+const responseQ = false 			# Whether the response should be computed. "computed" or false.
 
 
 #
@@ -32,14 +32,14 @@ const RMin = 0.1 # 0.1				# Minimum pericentric radius considered.
 const RMax = 10.0 # 10.0			# Maximum apocentric radius considered.
 const DeltaUV = 1.0					# Step size in the (u,v) grid.
 const RBasis = 11.0 # 11.0			# Scale radius of the radial basis.
-const NMax = 20						# Maximum order of the radial basis elements.
+const NMax = 3						# Maximum order of the radial basis elements.
 const Q = 1.0						# Sampling parameter of the (u,v) grid.
 const N1Max = 2						# Maximum order of the radial Fourier number n_1.
 const Sigma = 0.001					# Width parameter for the construction of the (u,v) grid.
 const Ra = 1.0						# Anisotropy radius of the Osipkov-Merrit DFs.
 const Beta = 0.01					# Anisotropy parameter of the Baes-Van Hese DFs.
 const QPlummer = 0.0				# Anisotropy parameter of the Dejonghe DF of the Plummer sphere.
-const EllMax = 4					# Maximum order of the ell harmonic number.
+const EllMax = 1					# Maximum order of the ell harmonic number.
 const NStepsWMat = 100				# Sampling size for the Runge-Kutta integration of WMat.
 const EpsilonWMat = 1.0e-4			# Sanity edge width for the integration of WMat.
 const HWMat = 2.0 * (1.0 - EpsilonWMat) / NStepsWMat # Integration step for the computation of WMat. Avoiding the edges, where vr is ill-defined.
