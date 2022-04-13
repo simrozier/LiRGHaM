@@ -581,9 +581,9 @@ RbasisString[Rbasis]=RbasisS;  (*Wrapping the correspondence in a function*)
 beta = 0.01;  (*Anisotropy parameter of the MW model.*)
 betaS = "0.01"; (*String version of the anisotropy parameter*)
 BetaString[beta]=betaS; (*Wrapping the correspondence in a function*)
-nmax = 20; (*Maximum order of the radial basis functions.*)
+nmax = 3; (*Maximum order of the radial basis functions.*)
 uBasis = "Clutton"; (*Type of basis functions.*)
-ellMax = 4; (*Maximum harmonic ell.*)
+ellMax = 1; (*Maximum harmonic ell.*)
 
 
 (* ::Subsection:: *)
