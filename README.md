@@ -48,7 +48,7 @@ Then, run the `LMC_Main.jl` file again.
 > julia LMC_Main.jl
 ```
 
-This will compute the LMC's projection, the response matrix and the response with a set of small parameters ensuring fast computation. When the code has done running, check that the perturber, matrix and response files were dropped in `source/MW_LMC_Response/Data/`.
+This will compute the LMC's projection, the response matrix and the response with a set of small parameters ensuring fast computation. When the code is done running, check that the perturber, matrix and response files were dropped in `source/MW_LMC_Response/Data/`.
 
 Output: 
 
