@@ -165,4 +165,4 @@ const DeltaT = 0.996997 # Default: 1/20 of total time = 0.996997	# Time step of 
 
 The `FiducialResponse.gif` movie produced is:
 
-<img src="https://user-images.githubusercontent.com/103592382/165072369-4f917577-5476-4356-b3e3-a942beac73a0.gif" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/103592382/165072369-4f917577-5476-4356-b3e3-a942beac73a0.gif" width="400" height="400">
